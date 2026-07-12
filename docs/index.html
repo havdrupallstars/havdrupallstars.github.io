@@ -32,16 +32,27 @@
         <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
             <!-- Logo (Hjem knap) -->
             <a href="#" class="flex items-center gap-x-3 group">
-                <div class="w-10 h-10 bg-green-600 rounded-2xl flex items-center justify-center group-hover:bg-green-500 transition-colors">
-                    <i class="fas fa-futbol text-white text-2xl"></i>
-                </div>
+                <img src="Logo.png" alt="Havdrup Allstars Logo" 
+                     class="w-11 h-11 object-contain rounded-xl group-hover:scale-105 transition-transform">
                 <span class="font-bold text-2xl tracking-tight">Havdrup <span class="text-green-500">Allstars</span></span>
             </a>
 
-            <!-- Menu -->
-            <div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
+            <!-- Menu + Sociale medier -->
+            <div class="hidden md:flex items-center gap-x-6 text-sm font-medium">
                 <a href="#vaerdier" class="hover:text-green-400 transition-colors">Værdier</a>
                 <a href="#kontakt" class="hover:text-green-400 transition-colors">Kontakt</a>
+                
+                <!-- Sociale medier -->
+                <div class="flex items-center gap-x-4 ml-4 pl-4 border-l border-green-800">
+                    <a href="https://www.instagram.com/havdrup_allstars09" target="_blank" 
+                       class="text-xl hover:text-pink-400 transition-colors">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@havdrup_allstars09_insta" target="_blank" 
+                       class="text-xl hover:text-white transition-colors">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
             </div>
 
             <a href="#kontakt" 
@@ -143,7 +154,7 @@
     </footer>
 
     <script>
-        // Smooth scroll for navigation links
+        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 const target = document.querySelector(this.getAttribute('href'));
