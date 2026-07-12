@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havdrup All Stars</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@600&amp;display=swap');
+        
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .heading-font {
+            font-family: 'Poppins', system_ui, sans-serif;
+        }
+
+        .hero-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white">
+    <!-- Navbar -->
+    <nav class="bg-zinc-900 border-b border-zinc-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center">
+                    <i class="fas fa-star text-white text-2xl"></i>
+                </div>
+                <div>
+                    <span class="font-bold text-2xl tracking-tight">Havdrup</span>
+                    <span class="font-bold text-2xl text-blue-500">All Stars</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-x-8 text-sm">
+                <a href="#om-os" class="hover:text-blue-400 transition-colors">Om os</a>
+                <a href="#holdet" class="hover:text-blue-400 transition-colors">Holdet</a>
+                <a href="#kontakt" class="hover:text-blue-400 transition-colors">Kontakt</a>
+            </div>
+            
+            <a href="#kontakt" 
+               class="px-5 py-2.5 bg-white text-zinc-900 hover:bg-zinc-100 font-semibold text-sm rounded-2xl transition-all flex items-center gap-x-2">
+                <i class="fas fa-user-plus"></i>
+                <span>Bliv medlem</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero-bg">
+        <div class="max-w-4xl mx-auto px-6 pt-20 pb-24 text-center">
+            <div class="inline-flex items-center gap-x-2 bg-white/10 px-4 py-1.5 rounded-3xl mb-6">
+                <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                <span class="text-sm font-medium">Velkommen til sæson 2026</span>
+            </div>
+            
+            <h1 class="text-6xl md:text-7xl font-bold tracking-tighter heading-font mb-4">
+                Havdrup All Stars
+            </h1>
+            <p class="text-2xl text-blue-200 max-w-md mx-auto mb-10">
+                Fællesskab • Glæde • Stjerner
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#kontakt" 
+                   class="px-8 py-4 bg-white text-zinc-900 hover:bg-zinc-100 font-semibold rounded-3xl text-lg transition-all flex items-center justify-center gap-x-3">
+                    <i class="fas fa-users"></i>
+                    <span>Bliv en del af holdet</span>
+                </a>
+                <a href="#om-os" 
+                   class="px-8 py-4 border border-white/30 hover:bg-white/10 font-semibold rounded-3xl text-lg transition-all flex items-center justify-center gap-x-3">
+                    Læs mere
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Om os -->
+    <div id="om-os" class="max-w-5xl mx-auto px-6 py-20">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="text-blue-500 font-semibold tracking-widest text-sm mb-3">HVEM ER VI?</div>
+                <h2 class="text-5xl font-bold tracking-tight heading-font mb-6">Et stærkt fællesskab i Havdrup</h2>
+                <p class="text-xl text-zinc-400 leading-relaxed">
+                    Havdrup All Stars er et lokalt hold, hvor alle er velkomne. 
+                    Vi spiller for glæden, fællesskabet og de gode oplevelser.
+                </p>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <i class="fas fa-users text-3xl text-blue-500 mt-1"></i>
+                        <div>
+                            <div class="font-semibold">Fællesskab først</div>
+                            <div class="text-zinc-400">Vi er mere end bare et hold – vi er venner</div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fas fa-tachometer-alt text-3xl text-blue-500 mt-1"></i>
+                        <div>
+                            <div class="font-semibold">For alle niveauer</div>
+                            <div class="text-zinc-400">Både nybegyndere og øvede er velkomne</div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fas fa-heart text-3xl text-blue-500 mt-1"></i>
+                        <div>
+                            <div class="font-semibold">God stemning</div>
+                            <div class="text-zinc-400">Vi har det sjovt – både på og uden for banen</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Holdet -->
+    <div id="holdet" class="bg-zinc-900 py-16">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <div class="text-blue-500 font-semibold tracking-widest text-sm mb-2">MØD OS</div>
+                <h2 class="text-4xl font-bold heading-font">Vores hold</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-zinc-950 border border-zinc-800 rounded-3xl p-6 text-center">
+                    <div class="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-5 flex items-center justify-center">
+                        <i class="fas fa-user text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl mb-1">Trænerteamet</h3>
+                    <p class="text-zinc-400 text-sm">Erfarne og passionerede trænere</p>
+                </div>
+                <div class="bg-zinc-950 border border-zinc-800 rounded-3xl p-6 text-center">
+                    <div class="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-5 flex items-center justify-center">
+                        <i class="fas fa-users text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl mb-1">Spillerne</h3>
+                    <p class="text-zinc-400 text-sm">En blanding af unge talenter og rutinerede spillere</p>
+                </div>
+                <div class="bg-zinc-950 border border-zinc-800 rounded-3xl p-6 text-center">
+                    <div class="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-5 flex items-center justify-center">
+                        <i class="fas fa-handshake text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl mb-1">Frivillige</h3>
+                    <p class="text-zinc-400 text-sm">De der holder det hele kørende</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kontakt / Bliv medlem -->
+    <div id="kontakt" class="max-w-3xl mx-auto px-6 py-20 text-center">
+        <h2 class="text-4xl font-bold heading-font mb-4">Vil du være med?</h2>
+        <p class="text-xl text-zinc-400 mb-10 max-w-md mx-auto">
+            Vi tager gerne imod nye spillere, frivillige og støtter. 
+            Kom og vær med i fællesskabet!
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="mailto:info@havdrupallstars.dk" 
+               class="px-8 py-4 bg-blue-600 hover:bg-blue-700 transition-colors font-semibold rounded-3xl flex items-center justify-center gap-x-3">
+                <i class="fas fa-envelope"></i>
+                <span>Skriv til os</span>
+            </a>
+            <a href="#" 
+               class="px-8 py-4 border border-zinc-700 hover:bg-zinc-900 transition-colors font-semibold rounded-3xl flex items-center justify-center gap-x-3">
+                <i class="fas fa-calendar-alt"></i>
+                <span>Se kommende træninger</span>
+            </a>
+        </div>
+        
+        <p class="text-sm text-zinc-500 mt-8">
+            Havdrup All Stars • Havdrup, Danmark
+        </p>
+    </div>
+
+    <footer class="border-t border-zinc-800 py-8 text-center text-sm text-zinc-500">
+        © 2026 Havdrup All Stars. Lavet med ❤️ i Havdrup.
+    </footer>
+</body>
+</html>
