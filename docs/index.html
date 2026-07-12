@@ -44,7 +44,6 @@
                     <span class="font-bold text-2xl tracking-tight">Havdrup <span class="text-emerald-500">Allstars</span></span>
                 </a>
 
-                <!-- Menu links -->
                 <div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
                     <a href="#vaerdier" class="hover:text-emerald-400 transition-colors">Værdier</a>
                     <a href="#spillertrup" class="hover:text-emerald-400 transition-colors">Spillertrup</a>
@@ -106,7 +105,6 @@
                 </p>
             </div>
 
-            <!-- Holdbillede -->
             <div class="flex justify-center mb-8">
                 <img src="Allstars.png" alt="Havdrup Allstars holdet samlet" 
                      class="w-full max-w-3xl rounded-3xl shadow-2xl border border-emerald-800 object-cover">
@@ -123,7 +121,7 @@
         </a>
     </div>
 
-    <!-- SPILLERTRUP -->
+    <!-- SPILLERTRUP (ny version med bokse) -->
     <div id="spillertrup" class="bg-zinc-900 py-16 px-6">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-12">
@@ -131,74 +129,82 @@
                 <h2 class="text-5xl font-bold heading-font">Spillertrup</h2>
             </div>
 
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 
-                <!-- Spiller 1 -->
-                <div class="bg-zinc-800 rounded-3xl overflow-hidden shadow-xl">
-                    <div class="h-48 bg-emerald-900 flex items-center justify-center">
-                        <i class="fas fa-user text-6xl text-emerald-400"></i>
+                <!-- Træner boks -->
+                <div class="bg-zinc-800 rounded-3xl p-6 shadow-xl">
+                    <div class="flex items-center gap-x-3 mb-4">
+                        <i class="fas fa-chalkboard-teacher text-emerald-400 text-2xl"></i>
+                        <h3 class="font-bold text-2xl">Træner</h3>
                     </div>
-                    <div class="p-6 text-center">
-                        <h3 class="font-bold text-xl">Mikkel Hansen</h3>
-                        <p class="text-emerald-400 mt-1">Målmand</p>
-                    </div>
+                    <ul class="space-y-2 text-emerald-100">
+                        <li>Wilbert Engell</li>
+                        <li>Mohammad Sido</li>
+                        <li>Moses Kaikai</li>
+                    </ul>
                 </div>
 
-                <!-- Spiller 2 -->
-                <div class="bg-zinc-800 rounded-3xl overflow-hidden shadow-xl">
-                    <div class="h-48 bg-emerald-900 flex items-center justify-center">
-                        <i class="fas fa-user text-6xl text-emerald-400"></i>
+                <!-- Forsvar boks -->
+                <div class="bg-zinc-800 rounded-3xl p-6 shadow-xl">
+                    <div class="flex items-center gap-x-3 mb-4">
+                        <i class="fas fa-shield-alt text-emerald-400 text-2xl"></i>
+                        <h3 class="font-bold text-2xl">Forsvar</h3>
                     </div>
-                    <div class="p-6 text-center">
-                        <h3 class="font-bold text-xl">Andreas Jensen</h3>
-                        <p class="text-emerald-400 mt-1">Forsvar</p>
-                    </div>
+                    <ul class="space-y-2 text-emerald-100">
+                        <li>Benjamin Høyer</li>
+                        <li>Omed Hamid</li>
+                        <li>Sylvester Hardis</li>
+                        <li>Simon Petersen</li>
+                        <li>Daniel Majgaard</li>
+                        <li>Gabriel Baranowska</li>
+                    </ul>
                 </div>
 
-                <!-- Spiller 3 -->
-                <div class="bg-zinc-800 rounded-3xl overflow-hidden shadow-xl">
-                    <div class="h-48 bg-emerald-900 flex items-center justify-center">
-                        <i class="fas fa-user text-6xl text-emerald-400"></i>
+                <!-- Midtbane boks -->
+                <div class="bg-zinc-800 rounded-3xl p-6 shadow-xl">
+                    <div class="flex items-center gap-x-3 mb-4">
+                        <i class="fas fa-running text-emerald-400 text-2xl"></i>
+                        <h3 class="font-bold text-2xl">Midtbane</h3>
                     </div>
-                    <div class="p-6 text-center">
-                        <h3 class="font-bold text-xl">Lukas Pedersen</h3>
-                        <p class="text-emerald-400 mt-1">Forsvar</p>
-                    </div>
+                    <ul class="space-y-2 text-emerald-100">
+                        <li>Aleksander Kvistholm</li>
+                        <li>Oscar Wind</li>
+                        <li>Silas Teglers</li>
+                        <li>Alexander Lindmark</li>
+                    </ul>
                 </div>
 
-                <!-- Spiller 4 -->
-                <div class="bg-zinc-800 rounded-3xl overflow-hidden shadow-xl">
-                    <div class="h-48 bg-emerald-900 flex items-center justify-center">
-                        <i class="fas fa-user text-6xl text-emerald-400"></i>
+                <!-- Angriber boks -->
+                <div class="bg-zinc-800 rounded-3xl p-6 shadow-xl">
+                    <div class="flex items-center gap-x-3 mb-4">
+                        <i class="fas fa-futbol text-emerald-400 text-2xl"></i>
+                        <h3 class="font-bold text-2xl">Angriber</h3>
                     </div>
-                    <div class="p-6 text-center">
-                        <h3 class="font-bold text-xl">Emil Sørensen</h3>
-                        <p class="text-emerald-400 mt-1">Midtbane</p>
-                    </div>
+                    <ul class="space-y-2 text-emerald-100">
+                        <li>Moses Kaikai</li>
+                        <li>Andreas Kirkeby</li>
+                        <li>Peter Olsen</li>
+                        <li>Gabriel Ogunseri</li>
+                    </ul>
                 </div>
 
-                <!-- Spiller 5 -->
-                <div class="bg-zinc-800 rounded-3xl overflow-hidden shadow-xl">
-                    <div class="h-48 bg-emerald-900 flex items-center justify-center">
-                        <i class="fas fa-user text-6xl text-emerald-400"></i>
-                    </div>
-                    <div class="p-6 text-center">
-                        <h3 class="font-bold text-xl">Oliver Nielsen</h3>
-                        <p class="text-emerald-400 mt-1">Midtbane</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kontakt -->
+    <div id="kontakt" class="max-w-3xl mx-auto px-6 py-20">
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-bold heading-font mb-3">Kontakt os</h2>
+        </div>
+        <div class="bg-zinc-900 border border-emerald-900 rounded-3xl p-10 max-w-md mx-auto">
+            <div class="space-y-6 text-lg">
+                <div class="flex items-center gap-x-4">
+                    <i class="fas fa-phone text-emerald-500 text-2xl w-8"></i>
+                    <div>
+                        <div class="text-sm text-emerald-400">Telefon</div>
+                        <div class="font-semibold">42 41 32 24</div>
                     </div>
                 </div>
-
-                <!-- Spiller 6 -->
-                <div class="bg-zinc-800 rounded-3xl overflow-hidden shadow-xl">
-                    <div class="h-48 bg-emerald-900 flex items-center justify-center">
-                        <i class="fas fa-user text-6xl text-emerald-400"></i>
-                    </div>
-                    <div class="p-6 text-center">
-                        <h3 class="font-bold text-xl">Noah Larsen</h3>
-                        <p class="text-emerald-400 mt-1">Angriber</p>
-                    </div>
-                </div>
-
-                <!-- Spiller 7 -->
-                <div class="bg-zinc-800 rounded-3xl overflow-hidden shadow-xl">
-        
+                <div class="flex items-center gap-x-4">
+  
