@@ -69,4 +69,68 @@
             </div>
 
             <div class="max-w-3xl mx-auto text-center mb-10">
-                <p class="text-2xl leading
+                <p class="text-2xl leading-relaxed text-green-100">
+                    Vi er et <strong>hyggehold</strong> med masser af fællesskab. 
+                    Vi hører til i Havdrup og spiller hyggekampe mod andre hyggehold og række 2/3 hold.
+                </p>
+            </div>
+
+            <!-- Holdbillede -->
+            <div class="flex justify-center mb-8">
+                <img src="Allstars.png" alt="Havdrup Allstars holdet samlet" 
+                     class="w-full max-w-3xl rounded-3xl shadow-2xl border border-green-800 object-cover">
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="py-16 px-6 text-center bg-[#0f1c12]">
+        <h3 class="text-3xl font-semibold mb-4">Vil du være med?</h3>
+        <p class="text-green-300 mb-8">Vi tager altid imod nye spillere og frivillige.</p>
+        <a href="#kontakt" class="inline-block px-10 py-4 bg-green-600 hover:bg-green-500 transition-all text-xl font-semibold rounded-3xl">
+            Kontakt os
+        </a>
+    </div>
+
+    <!-- Kontakt -->
+    <div id="kontakt" class="max-w-3xl mx-auto px-6 py-20">
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-bold heading-font mb-3">Kontakt os</h2>
+        </div>
+        <div class="bg-[#13281b] border border-green-900 rounded-3xl p-10 max-w-md mx-auto">
+            <div class="space-y-6 text-lg">
+                <div class="flex items-center gap-x-4">
+                    <i class="fas fa-phone text-green-500 text-2xl w-8"></i>
+                    <div>
+                        <div class="text-sm text-green-400">Telefon</div>
+                        <div class="font-semibold">42 41 32 24</div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-x-4">
+                    <i class="fab fa-snapchat-ghost text-green-500 text-2xl w-8"></i>
+                    <div>
+                        <div class="text-sm text-green-400">Snapchat</div>
+                        <div class="font-semibold">moseskaikai</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-t border-green-900 py-8 text-center text-sm text-green-600">
+        © 2026 Havdrup Allstars • Hyggehold i Havdrup
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
